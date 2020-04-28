@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+*
+{margin: 0;}
+
+html
+{background: linear-gradient(to bottom, #000428, #004e92); background-attachment: fixed;height: 100%;width: 100%;}
+
+body
+{height:100%;width: 100%;margin:0px; padding:0px;}
+
+#conteudo
+{width: 100%;height: 100%; overflow: hidden;}
+
+
+
+#cont2 h2
+{position: relative;text-align: center;font-size: 3vw;color: #fff; font-family: 'Great Vibes', cursive;font-weight: normal;padding: 2%;}
+
+#cont2 h2:before, #cont2 h2:after { background-color: #A40239;content: "";display: inline-block;height: 3px;position: relative;vertical-align: middle;width: 10%;line-height: 4.5em;font-weight: initial;}
+
+#cont2 h2:before
+{background: linear-gradient(to right, rgba(164, 2, 57, 0), rgba(60, 91,168, 0.5));right: 0.25em;}
+
+#cont2 h2:after
+{background: linear-gradient(to left, rgba(164, 2, 57, 0), rgba(60, 91,168, 0.5));left: 0.25em;}
+
+
+.fundocl
+{overflow: hidden;background-repeat: no-repeat;}
+
+#cont1a
+{width: 100%;height: 100%; background-image: url("../svg/BackG/BackGC6.svg");background-size:cover;position: absolute; background-attachment: fixed;}
+#cont1b
+{width: 100%;height: 100%; background-image: url("../svg/BackG/BackGC5.svg");background-size:cover;position: absolute; background-attachment: fixed;}
+#cont1c
+{width: 100%;height: 100%; background-image: url("../svg/BackG/BackGC4.svg");background-size:cover;position: absolute; background-attachment: fixed;}
+#cont1d
+{width: 100%;height: 100%; background-image: url("../svg/BackG/BackGC3.svg");background-size:cover;position: absolute; background-attachment: fixed;}
+#cont1e
+{width: 100%;height: 100%; background-image: url("../svg/BackG/BackGC2.svg");background-size:cover;position: absolute;background-attachment: fixed;}
+#cont1f
+{width: 100%;height: 100%; background-image: url("../svg/BackG/BackGC1.svg");background-size:cover;position: absolute;}
+
+#cont1g
+{width: 100%;height: 100%; background-image: url("../svg/BackG/BackGC7.svg");background-size:cover;position: absolute;background-attachment: fixed;background-size: 80%;background-repeat: no-repeat;background-position: center;}
+
+#cont2
+{padding-top: 3%;background-color:#FFFFFF;overflow: hidden;border-top: 1px solid rgba(255, 255, 255, 0.5);background-image: url("../svg/BackG/FundoCont2.svg");background-size:cover;background-attachment: fixed;}
+
+.listaula
+{color: #fff;padding-left: 10%; font-family: 'Raleway', sans-serif;, cursive;font-size: 20px;color: #fff;}
+
+ul.listaula
+{list-style-type:upper-roman;}
+
+.box
+{width: 100%;height: 100%;margin-left: 11%;;margin-right: 11%;margin-bottom: 5%;}
+
+.boxdentrobox
+{width: 37%;overflow: hidden;border: 1px solid rgba(0,0,0,0.1);border-radius: 1%;float: left;margin: 1%;box-shadow: 0px 0px 38px -2px rgba(112,111,112,0.0);background-color: #fff;}
+
+.imgIcon
+{width: 35%;margin-left: 8px;margin-top: 28px;margin-bottom: 28px;height: 100px;overflow: hidden;float: left;}
+
+.textIcon
+{width: 55%;margin-left: 8px;margin-top: 33px;margin-bottom: 28px;height: 100px;overflow: hidden;float: left;font-family: 'Comfortaa', cursive;word-spacing: 3px;line-height: 18px;color:#4f545c;}
+
+.textIcon p
+{font-size: 13px;padding-top: 8px;color:#737f8d;}
+
+.imgIcon embed
+{width: 100%;height: 100%;}
+
+.boxdentrobox:hover
+{transition: 0.3s;box-shadow: 0px 9px 38px -2px rgba(112,111,112,0.31);border: 1px solid rgba(0,0,0,0.0);}
+
+
+@media screen and (max-width: 840px){#cont1g{background-size: 100%}#cont1a{display: none;}#cont2 h2{font-size: 8vw;}.boxdentrobox{margin-left:0%;margin-right:0%;width: 100%;}.box{margin-left:2%;margin-right:2%;width: 96%;}}
+
+@media screen and (max-width: 480px){.imgIcon{width: 100%;}.textIcon{width: 100%;text-align: center;margin-left: 0%;}}
